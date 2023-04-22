@@ -1,15 +1,15 @@
 
 //1. an imput that takes info... name, title of project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. when title is intred it is displayed as the title of the README. 
 
-//2. input for description, installation instructions, usage information, contribution guidelines, and test instructions.(this will go in the array called "the meat and potatoes") then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
+//2. input for description, installation instructions, usage information, contribution guidelines, and test instructions.(this will go in the array called "questions") then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
 
-//3. a list of options for license (this will go in the array called "the meat and potatoes") then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
+//3. a list of options for license (this will go in the array called "questions") then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
-//4. an imput that asks for their GitHub username (this will go in the array called "the meat and potatoes") then this is added to the section of the README entitled Questions, with a link to their GitHub profile.
+//4. an imput that asks for their GitHub username (this will go in the array called "questions") then this is added to the section of the README entitled Questions, with a link to their GitHub profile.
 
-//5. an imput that asks for their email address (this will go in the array called "the meat and potatoes") then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
+//5. an imput that asks for their email address (this will go in the array called "questions") then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
 
-//5 a table of contents that links to the corresponding sections of the README (this will go in the array called "the meat and potatoes") then this is added to the section of the README entitled Table of Contents.
+//5 a table of contents that links to the corresponding sections of the README (this will go in the array called "questions") then this is added to the section of the README entitled Table of Contents.
 
 
 
@@ -77,26 +77,6 @@ const questions = [
 
 async function promptUser(){
     const answers = await inquirer.prompt(questions)
-
-    const { name, project, description, installation, tests, usage, contributing, license, github, email } = answers;
-
-    const tableOfContents = `
-    Table of Contents
-    -----------------
-    Name: ${name}
-    Project: ${project}
-    Description: ${description}
-    Installation: ${installation}
-    Tests: ${tests}
-    Usage: ${usage}
-    Contributing: ${contributing}
-    License: ${license}
-    GitHub Username: ${github}
-    Email: ${email}
-  `;
-
-  console.log(tableOfContents);
-
   return answers;
 }
 
