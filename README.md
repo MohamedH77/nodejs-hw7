@@ -1,6 +1,5 @@
-# Generate a README file
-
-  ## Table of Contents
+# README generater
+## Table of Contents
   -----------------
   - [Description](#description)
   - [Installation](#installation)
@@ -10,19 +9,19 @@
   - [Contributing](#contributing)
   - [Credits](#credits)
 
-  ## Description <a name="description"></a>
-  Helps you quickly make a README
+## Description  
+  Helps you make a README file with proper markdowns
 
-  ## Installation <a name="installation"></a>
+## Installation
   npm i
 
-  ## Tests <a name="tests"></a>
+## Tests 
   test
 
-  ## Usage <a name="usage"></a>
-  n/a
+## Usage 
+  Heres a demo <iframe src="https://drive.google.com/file/d/1OE6awzyiq33TuokF5zfZfb1Z4f9B83RG/preview" width="640" height="480"></iframe>
 
-  ## License <a name="license"></a>
+## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   * [License](#license)
 
@@ -30,15 +29,15 @@
 
 This project is licensed under the MIT license. Click [here](https://choosealicense.com/licenses/mit/) for more information.
 
-  ## Contributing <a name="contributing"></a>
+## Contributing  
   n/a
 
-  ## Credits <a name="credits"></a>
-  mohamed@mohamedm.com
+  ## Credits  
+  amiini44@hotmail.com
 
-  ## GitHub <a name="github"></a>
+  ## GitHub  
   MohamedMH77
 
   ---
-  Last updated: April 22, 2023
+  Last updated: April 24, 2023
   

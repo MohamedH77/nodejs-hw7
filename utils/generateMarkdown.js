@@ -48,8 +48,7 @@ function generateMarkdown(data) {
   console.log("generateMarkdown", data)
 
   return `# ${data.project}
-
-  ## Table of Contents
+## Table of Contents
   -----------------
   - [Description](#description)
   - [Installation](#installation)
@@ -59,30 +58,30 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Credits](#credits)
 
-  ## Description <a name="description"></a>
+## Description  
   ${data.description}
 
-  ## Installation <a name="installation"></a>
+## Installation
   ${data.installation}
 
-  ## Tests <a name="tests"></a>
+## Tests 
   ${data.tests}
 
-  ## Usage <a name="usage"></a>
+## Usage 
   ${data.usage}
 
-  ## License <a name="license"></a>
+## License 
   ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
 
-  ## Contributing <a name="contributing"></a>
+## Contributing  
   ${data.contributing}
 
-  ## Credits <a name="credits"></a>
+  ## Credits  
   ${data.email}
 
-  ## GitHub <a name="github"></a>
+  ## GitHub  
   ${data.github}
 
   ---
